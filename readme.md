@@ -38,6 +38,8 @@ This GitHub repository is a monorepo that contains the following packages:
 * [`recma`][github-recma-core]
   — `unified`, `recma-parse`, and `recma-stringify`,
   useful when input and output are JS
+* [`rehype-recma`][github-rehype-recma]
+  — plugin to transform HTML (hast) to JS (estree)
 
 ## Plugins
 
@@ -93,6 +95,8 @@ Two good ways to find plugins:
 [github-recma-parse]: https://github.com/mdx-js/recma/tree/main/packages/recma-parse
 
 [github-recma-stringify]: https://github.com/mdx-js/recma/tree/main/packages/recma-stringify
+
+[github-rehype-recma]: https://github.com/mdx-js/recma/tree/main/packages/rehype-recma
 
 [github-topic-recma-plugin]: https://github.com/topics/recma-plugin
 

@@ -4,7 +4,7 @@
   "contributors": [
     "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)"
   ],
-  "description": "recma plugin to transform HTML (hast) to JS (estree)",
+  "description": "rehype plugin to transform HTML (hast) to JS (estree)",
   "dependencies": {
     "@types/estree": "^1.0.0",
     "@types/hast": "^3.0.0",
