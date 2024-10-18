@@ -56,14 +56,14 @@ npm install recma-build-jsx
 In Deno with [`esm.sh`][esmsh]:
 
 ```js
-import recmaBuildJsx from 'https://esm.sh/recma-build-jsx@0'
+import recmaBuildJsx from 'https://esm.sh/recma-build-jsx@1'
 ```
 
 In browsers with [`esm.sh`][esmsh]:
 
 ```html
 <script type="module">
-  import recmaBuildJsx from 'https://esm.sh/recma-build-jsx@0?bundle'
+  import recmaBuildJsx from 'https://esm.sh/recma-build-jsx@1?bundle'
 </script>
 ```
 
@@ -133,7 +133,7 @@ versions of Node.js.
 When we cut a new major release,
 we drop support for unmaintained versions of Node.
 This means we try to keep the current release line,
-`recma-build-jsx@0`,
+`recma-build-jsx@1`,
 compatible with Node.js 16.
 
 ## Security
