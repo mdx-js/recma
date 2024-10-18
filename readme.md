@@ -8,6 +8,10 @@
 [![Backers][badge-backers-image]][badge-collective-url]
 [![Chat][badge-chat-image]][badge-chat-url]
 
+> 👉 **Note**:
+> this is here in MDX while things are small.
+> Can always move to its own place later!
+
 **recma** is a tool that transforms JS with plugins.
 These plugins can inspect and change the JS.
 You can use recma on the server,
