@@ -64,14 +64,14 @@ npm install recma-stringify
 In Deno with [`esm.sh`][esmsh]:
 
 ```js
-import recmaStringify from 'https://esm.sh/recma-stringify@0'
+import recmaStringify from 'https://esm.sh/recma-stringify@1'
 ```
 
 In browsers with [`esm.sh`][esmsh]:
 
 ```html
 <script type="module">
-  import recmaStringify from 'https://esm.sh/recma-stringify@0?bundle'
+  import recmaStringify from 'https://esm.sh/recma-stringify@1?bundle'
 </script>
 ```
 
@@ -152,7 +152,7 @@ versions of Node.js.
 When we cut a new major release,
 we drop support for unmaintained versions of Node.
 This means we try to keep the current release line,
-`recma-strignify@0`,
+`recma-strignify@1`,
 compatible with Node.js 16.
 
 ## Security
