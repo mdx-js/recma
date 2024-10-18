@@ -1,0 +1,49 @@
+{
+  "author": "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
+  "bugs": "https://github.com/mdx-js/recma/issues",
+  "contributors": [
+    "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)"
+  ],
+  "dependencies": {
+    "recma-parse": "^0.0.0",
+    "recma-stringify": "^0.0.0",
+    "unified": "^11.0.0"
+  },
+  "description": "JavaScript processor powered by plugins part of the unified collective",
+  "exports": "./index.js",
+  "files": [
+    "index.d.ts",
+    "index.js"
+  ],
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/unified"
+  },
+  "homepage": "https://github.com/mdx-js/recma",
+  "keywords": [
+    "abstract",
+    "ast",
+    "js",
+    "parse",
+    "process",
+    "recma",
+    "serialize",
+    "stringify",
+    "syntax",
+    "tree",
+    "unified"
+  ],
+  "license": "MIT",
+  "name": "recma",
+  "repository": "https://github.com/mdx-js/recma/tree/main/packages/recma",
+  "scripts": {},
+  "sideEffects": false,
+  "typeCoverage": {
+    "atLeast": 100,
+    "detail": true,
+    "strict": true,
+    "ignoreCatch": true
+  },
+  "type": "module",
+  "version": "0.0.0"
+}

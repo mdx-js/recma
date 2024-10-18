@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "customConditions": ["development"],
+    "declarationMap": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "exactOptionalPropertyTypes": true,
+    "jsx": "preserve",
+    "lib": ["es2022"],
+    "module": "node16",
+    "strict": true,
+    "target": "es2022"
+  },
+  "exclude": ["**/coverage/", "**/node_modules/"],
+  "include": [
+    "**/*.js",
+    "packages/recma-build-jsx/index.d.ts",
+    "packages/recma-jsx/index.d.ts",
+    "packages/recma-parse/index.d.ts",
+    "packages/recma-stringify/index.d.ts",
+    "packages/recma/index.d.ts",
+    "packages/rehype-recma/index.d.ts"
+  ]
+}
