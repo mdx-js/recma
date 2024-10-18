@@ -8,7 +8,7 @@
   "dependencies": {
     "acorn-jsx": "^5.0.0",
     "estree-util-to-js": "^2.0.0",
-    "recma-parse": "^0.0.0",
+    "recma-parse": "^1.0.0",
     "recma-stringify": "^0.0.0",
     "unified": "^11.0.0"
   },

@@ -64,14 +64,14 @@ npm install recma-parse
 In Deno with [`esm.sh`][esmsh]:
 
 ```js
-import recmaParse from 'https://esm.sh/recma-parse@0'
+import recmaParse from 'https://esm.sh/recma-parse@1'
 ```
 
 In browsers with [`esm.sh`][esmsh]:
 
 ```html
 <script type="module">
-  import recmaParse from 'https://esm.sh/recma-parse@0?bundle'
+  import recmaParse from 'https://esm.sh/recma-parse@1?bundle'
 </script>
 ```
 
@@ -151,7 +151,7 @@ versions of Node.js.
 When we cut a new major release,
 we drop support for unmaintained versions of Node.
 This means we try to keep the current release line,
-`recma-parse@0`,
+`recma-parse@1`,
 compatible with Node.js 16.
 
 ## Security
