@@ -176,13 +176,13 @@ or community you agree to abide by its terms.
 
 [badge-coverage-url]: https://codecov.io/github/mdx-js/recma
 
-[badge-downloads-image]: https://img.shields.io/npm/dm/recma-jsx.svg
+[badge-downloads-image]: https://img.shields.io/npm/dm/recma-minify.svg
 
-[badge-downloads-url]: https://www.npmjs.com/package/recma-jsx
+[badge-downloads-url]: https://www.npmjs.com/package/recma-minify
 
-[badge-size-image]: https://img.shields.io/bundlejs/size/recma-jsx
+[badge-size-image]: https://img.shields.io/bundlejs/size/recma-minify
 
-[badge-size-url]: https://bundlejs.com/?q=recma-jsx
+[badge-size-url]: https://bundlejs.com/?q=recma-minify
 
 [badge-sponsors-image]: https://opencollective.com/unified/sponsors/badge.svg
 
