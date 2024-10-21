@@ -35,6 +35,8 @@ This GitHub repository is a monorepo that contains the following packages:
   — plugin to turn JSX into function calls
 * [`recma-jsx`][github-recma-jsx]
   — plugin to add support for JSX
+* [`recma-minify`][github-recma-minify]
+  — plugin to minify code
 * [`recma-parse`][github-recma-parse]
   — plugin to take JS as input and turn it into a syntax tree (esast)
 * [`recma-stringify`][github-recma-stringify]
@@ -95,6 +97,8 @@ Two good ways to find plugins:
 [github-recma-core]: https://github.com/mdx-js/recma/tree/main/packages/recma
 
 [github-recma-jsx]: https://github.com/mdx-js/recma/tree/main/packages/recma-jsx
+
+[github-recma-minify]: https://github.com/mdx-js/recma/tree/main/packages/recma-minify
 
 [github-recma-parse]: https://github.com/mdx-js/recma/tree/main/packages/recma-parse
 

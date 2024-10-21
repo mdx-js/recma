@@ -53,6 +53,7 @@
   "workspaces": [
     "packages/recma-build-jsx/",
     "packages/recma-jsx/",
+    "packages/recma-minify/",
     "packages/recma-parse/",
     "packages/recma-stringify/",
     "packages/recma/",

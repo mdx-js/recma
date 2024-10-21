@@ -10,6 +10,7 @@ import test from 'node:test'
 import {visit as visitEstree} from 'estree-util-visit'
 import recmaBuildJsx from 'recma-build-jsx'
 import recmaJsx from 'recma-jsx'
+import recmaMinify from 'recma-minify'
 import recmaParse from 'recma-parse'
 import recmaStringify from 'recma-stringify'
 import rehypeParse from 'rehype-parse'
@@ -83,6 +84,47 @@ test('recma-jsx', async function (t) {
       .process('let a = <b:c/>')
 
     assert.equal(String(file), 'let a = <b:c />;\n')
+  })
+})
+
+test('recma-minify', async function (t) {
+  await t.test(
+    'should expose the public api of `recma-minify`',
+    async function () {
+      assert.deepEqual(Object.keys(await import('recma-minify')).sort(), [
+        'default'
+      ])
+    }
+  )
+
+  await t.test('should minify w/ `recma-minify`', async function () {
+    const file = await unified()
+      .use(recmaParse, {module: true})
+      .use(recmaMinify)
+      .use(recmaStringify)
+      .process('export function sum(left, right) { return left + right }')
+
+    assert.equal(
+      String(file),
+      'export function sum(n, r) {\n  return n + r;\n}\n'
+    )
+  })
+
+  await t.test('should support terser options', async function () {
+    const file = await unified()
+      .use(recmaParse)
+      .use(recmaMinify, {
+        compress: true,
+        ecma: 2020,
+        mangle: true,
+        toplevel: true
+      })
+      .use(recmaStringify)
+      .process(
+        'console.log(sum(1, 2)); function sum(left, right) { return left + right }'
+      )
+
+    assert.equal(String(file), 'console.log(1 + 2);\n')
   })
 })
 

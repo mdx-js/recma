@@ -27,6 +27,8 @@ The list of plugins:
   — set the default `() => null` for missing components in MDX
 * [`recma-mdx-is-mdx-component`](https://github.com/remcohaszing/recma-mdx-is-mdx-component)
   — define an `isMdxComponent` property on MDX components
+* [`recma-minify`](https://github.com/mdx-js/recma/tree/main/packages/recma-minify)
+  — plugin to minify code
 * [`recma-nextjs-static-props`](https://github.com/remcohaszing/recma-nextjs-static-props)
   — expose top-level identifiers in Next.js `app.js`
 

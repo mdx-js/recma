@@ -17,6 +17,7 @@
     "**/*.js",
     "packages/recma-build-jsx/index.d.ts",
     "packages/recma-jsx/index.d.ts",
+    "packages/recma-minify/index.d.ts",
     "packages/recma-parse/index.d.ts",
     "packages/recma-stringify/index.d.ts",
     "packages/recma/index.d.ts",
