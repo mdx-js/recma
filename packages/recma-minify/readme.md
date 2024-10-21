@@ -51,14 +51,14 @@ npm install recma-minify
 In Deno with [`esm.sh`][esmsh]:
 
 ```js
-import recmaMinify from 'https://esm.sh/recma-minify@0'
+import recmaMinify from 'https://esm.sh/recma-minify@1'
 ```
 
 In browsers with [`esm.sh`][esmsh]:
 
 ```html
 <script type="module">
-  import recmaMinify from 'https://esm.sh/recma-minify@0?bundle'
+  import recmaMinify from 'https://esm.sh/recma-minify@1?bundle'
 </script>
 ```
 
@@ -135,7 +135,7 @@ versions of Node.js.
 When we cut a new major release,
 we drop support for unmaintained versions of Node.
 This means we try to keep the current release line,
-`recma-minify@0`,
+`recma-minify@1`,
 compatible with Node.js 16.
 
 ## Security
