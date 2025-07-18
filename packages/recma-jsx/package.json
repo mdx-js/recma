@@ -12,6 +12,12 @@
     "recma-stringify": "^1.0.0",
     "unified": "^11.0.0"
   },
+  "devDependencies": {
+    "acorn": "^8.0.0"
+  },
+  "peerDependencies": {
+    "acorn": "^6.0.0 || ^7.0.0 || ^8.0.0"
+  },
   "exports": "./index.js",
   "files": [
     "lib/",
