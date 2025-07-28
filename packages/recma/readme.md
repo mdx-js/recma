@@ -171,6 +171,10 @@ or community you agree to abide by its terms.
 
 [badge-build-url]: https://github.com/mdx-js/recma/actions
 
+[badge-chat-image]: https://img.shields.io/badge/chat-discussions-success.svg
+
+[badge-chat-url]: https://github.com/mdx-js/mdx/discussions
+
 [badge-collective-url]: https://opencollective.com/unified
 
 [badge-coverage-image]: https://img.shields.io/codecov/c/github/mdx-js/recma.svg
@@ -186,10 +190,6 @@ or community you agree to abide by its terms.
 [badge-size-url]: https://bundlejs.com/?q=recma
 
 [badge-sponsors-image]: https://opencollective.com/unified/sponsors/badge.svg
-
-[badge-chat-image]: https://img.shields.io/badge/chat-discussions-success.svg
-
-[badge-chat-url]: https://github.com/mdx-js/mdx/discussions
 
 [esmsh]: https://esm.sh
 

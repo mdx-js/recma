@@ -87,7 +87,7 @@ console.log(String(file))
 
 …running that with `node example.js` yields:
 
-```jsx
+```js
 console.log(<em>Hi!</em>);
 ```
 
@@ -163,6 +163,10 @@ or community you agree to abide by its terms.
 
 [badge-build-url]: https://github.com/mdx-js/recma/actions
 
+[badge-chat-image]: https://img.shields.io/badge/chat-discussions-success.svg
+
+[badge-chat-url]: https://github.com/mdx-js/mdx/discussions
+
 [badge-collective-url]: https://opencollective.com/unified
 
 [badge-coverage-image]: https://img.shields.io/codecov/c/github/mdx-js/recma.svg
@@ -179,25 +183,21 @@ or community you agree to abide by its terms.
 
 [badge-sponsors-image]: https://opencollective.com/unified/sponsors/badge.svg
 
-[badge-chat-image]: https://img.shields.io/badge/chat-discussions-success.svg
-
-[badge-chat-url]: https://github.com/mdx-js/mdx/discussions
-
 [esmsh]: https://esm.sh
 
 [file-license]: license
 
-[github-acorn-jsx]: https://github.com/acornjs/acorn-jsx
-
 [github-acorn]: https://github.com/acornjs/acorn
 
+[github-acorn-jsx]: https://github.com/acornjs/acorn-jsx
+
 [github-esast]: https://github.com/syntax-tree/esast
+
+[github-estree]: https://github.com/estree/estree
 
 [github-estree-util-to-js]: https://github.com/syntax-tree/estree-util-to-js
 
 [github-estree-util-to-js-jsx]: https://github.com/syntax-tree/estree-util-to-js#jsx
-
-[github-estree]: https://github.com/estree/estree
 
 [github-gist-esm]: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c
 

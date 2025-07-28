@@ -191,6 +191,10 @@ or community you agree to abide by its terms.
 
 [badge-build-url]: https://github.com/mdx-js/recma/actions
 
+[badge-chat-image]: https://img.shields.io/badge/chat-discussions-success.svg
+
+[badge-chat-url]: https://github.com/mdx-js/mdx/discussions
+
 [badge-collective-url]: https://opencollective.com/unified
 
 [badge-coverage-image]: https://img.shields.io/codecov/c/github/mdx-js/recma.svg
@@ -207,10 +211,6 @@ or community you agree to abide by its terms.
 
 [badge-sponsors-image]: https://opencollective.com/unified/sponsors/badge.svg
 
-[badge-chat-image]: https://img.shields.io/badge/chat-discussions-success.svg
-
-[badge-chat-url]: https://github.com/mdx-js/mdx/discussions
-
 [esmsh]: https://esm.sh
 
 [file-license]: license
@@ -225,11 +225,11 @@ or community you agree to abide by its terms.
 
 [github-gist-esm]: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c
 
+[github-recma]: https://github.com/mdx-js/recma
+
 [github-recma-core]: https://github.com/mdx-js/recma/tree/main/packages/recma
 
 [github-recma-stringify]: https://github.com/mdx-js/recma/tree/main/packages/recma-stringify
-
-[github-recma]: https://github.com/mdx-js/recma
 
 [github-unified]: https://github.com/unifiedjs/unified
 
